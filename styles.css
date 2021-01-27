@@ -1,0 +1,58 @@
+body{
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   
+}
+ 
+.MainDiv{
+   width: 50%;
+   background: white;
+}
+ 
+#header {
+   display: flex;
+   justify-content:space-between;
+   font-family: cursive;
+   padding: 0px 50px;
+}
+#header-imag {
+ display:flex; 
+ flex-direction: row;
+ 
+ 
+}
+#header-title {
+ display:flex;
+ flex-direction: row;
+ }
+#body {
+   display: flex;
+   justify-content: space-evenly;
+   font-family: cursive;
+   background-color: white;
+}
+#body-text {
+ display:flex;
+ flex-direction: column;
+ padding-right: 30px;
+ background-color: white;
+}
+#body-input {
+ display:flex;
+ flex-direction: column;
+ background-color: white;
+}
+#feet {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px 0px;
+   background-color: white;
+}
+ 
+.inputBottom {
+   border: none;
+   border-bottom: 2px solid black;
+   background-color: white;
+}
