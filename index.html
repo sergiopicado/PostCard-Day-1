@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <link rel="stylesheet" href="./styles.css">
-   </head>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Biggest Box -->
+    <div class="BiggestBox">
+
+        <!-- H1 and Image -->
+        <div class="DivSuperior" id="H1andImage">
+
+            <!-- H1 Text -->
+            <div id="TextH1">
+                <h1>My Postcard</h1>
+            </div>
+
+             <!-- GeekImage -->
+            <div id="GeekImage">
+                <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt="" />
+            </div>
+        </div>
+
+        <!-- Text and Form -->
+        <div id="TextAndForm">
+
+            <!-- Text P-->
+            <div id="TextP">
+                <p>Look how awsome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy
+                    Curse!</p>
+                <br>
+                <p>This is so cool! can't wait to start doing more stuff!</p>
+            </div>
+
+            <!-- False form -->
+
+            <div id="FalseForm">
+                <input class="inputBottom" type="text" placeholder="Nombre" /><br>
+                <input class="inputBottom" type="text" placeholder="Email" /><br>
+                <input class="inputBottom" type="text" placeholder="Comentario" />
+            </div>
+        </div>
+
+        <!-- SendButton -->
+        <div id="SendButton">
+            <button style="font-family: fantasy;">Send my Postcard</button>
+        </div>
+    </div>
+</body>
 
 </html>
-
-<body id="headerbackground">
-       <!-- Div Principal (Caja grande) -->
-       <div class="MainDiv">
-           <!-- Div Superior -->
-           <div class="DivSuperior" id="header">
-               <div id=header-title> <!-- Div MyPostcard -->
-                   <h1> My Postcard</h1>
-               </div>
-              
-               <div id=header-imag> <!-- Div Imagen -->
-                   <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt="" />
-               </div>
-           </div>
- 
-          
-           <div class="DivCentral blue" id="body"> <!-- Div Medio -->
-               <div class="DivMedio" id="body-text"> <!-- Lado izq -->
-                   <p>Look how awsome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Curse!</p>
-                   <br>
-                   <p>This is so cool! can't wait to start doing more stuff!</p>
-               </div>
-               <div class="DivInput" id="body-input"> <!-- Lado der -->
-                   <input class="inputBottom" type= "text" placeholder= "Nombre" /><br>
-                   <input class="inputBottom" type= "text" placeholder= "Email" /><br>
-                   <input class="inputBottom" type= "text" placeholder= "Comentario" />
-               </div>
-           </div>
- 
-           <!-- Div Inferior -->
-           <div id="feet">
-               <button style="font-family: fantasy;">Send my Postcard</button>
-           </div>
-       </div>
-   </body>
